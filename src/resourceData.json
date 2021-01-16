@@ -1,0 +1,49 @@
+{
+  "resources": [
+    {
+      "resourceID": 1,
+      "title": "Free Code Camp",
+      "resourceType": ["free"],
+      "category": ["tutorials", "certification programs", "education", "free education"],
+      "languages": ["JavaScript", "Python", "Node", "HTML", "CSS"],
+      "keywords": ["front end", "back end", "full stack"],
+      "url": "https://www.freecodecamp.org/",
+      "accountRequired": true,
+      "description": "freeCodeCamp is a proven path to your first software developer job. More than 40,000 people have gotten developer jobs after completing this – including at big companies like Google and Microsoft.",
+      "publicSubmission": false,
+      "adminSubmitted": true,
+      "adminApproved": true,
+      "date": "Fri Jan 15 2021 18:59:28 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "resourceID": 2,
+      "title": "Free Code Camp 2",
+      "resourceType": ["free"],
+      "category": ["tutorials", "certification programs", "education", "free education"],
+      "languages": ["JavaScript", "Python", "Node", "HTML", "CSS"],
+      "keywords": ["front end", "back end", "full stack"],
+      "url": "https://www.freecodecamp.org/",
+      "accountRequired": true,
+      "description": "freeCodeCamp is a proven path to your first software developer job. More than 40,000 people have gotten developer jobs after completing this – including at big companies like Google and Microsoft.",
+      "publicSubmission": false,
+      "adminSubmitted": true,
+      "adminApproved": true,
+      "date": "Fri Jan 15 2021 18:59:28 GMT-0800 (Pacific Standard Time)"
+    },
+    {
+      "resourceID": 3,
+      "title": "Free Code Camp 3",
+      "resourceType": ["free"],
+      "category": ["tutorials", "certification programs", "education", "free education"],
+      "languages": ["JavaScript", "Python", "Node", "HTML", "CSS"],
+      "keywords": ["front end", "back end", "full stack"],
+      "url": "https://www.freecodecamp.org/",
+      "accountRequired": true,
+      "description": "freeCodeCamp is a proven path to your first software developer job. More than 40,000 people have gotten developer jobs after completing this – including at big companies like Google and Microsoft.",
+      "publicSubmission": false,
+      "adminSubmitted": true,
+      "adminApproved": true,
+      "date": "Fri Jan 15 2021 18:59:28 GMT-0800 (Pacific Standard Time)"
+    }
+  ]
+}

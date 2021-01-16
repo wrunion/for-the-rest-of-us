@@ -21,3 +21,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Anton', Sans-Serif;
   font-size: 45px;
 }
+
+.sub-header-font {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 67px;
+}

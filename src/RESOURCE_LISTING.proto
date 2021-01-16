@@ -1,0 +1,39 @@
+// BRAINSTORMING FOR PROTO/DATA DEFINITIONS
+
+// EVENTUALLY, EACH ENTRY WILL BE IN JSON FORMAT
+
+// EACH JSON OBJECT WILL INCLUDE: 
+
+/* 
+
+- NAME OF RESOURCES (ie, "Free Code Camp")
+- WEBSITE (can do regex testing around this, maybe? when the info comes in?)
+- description (TEXT)
+- possibly a rating system, for people to vote on their favorites, or to "save" their favorites (maybe they can save & dl them as a file or something???)
+- tags for difficulty levels (one of an array, so, ENUM)
+  - would be like, "beginner, expert, etc."
+  - choose AT LEAST ONE from an array (EMUN)
+- tags for languages (python, js, etc. we accept all languages)
+  - choose AT LEAST ONE from an array (EMUN)
+
+
+
+- date updated (note - when the entry is first submitted, this will also just be the date of submission)
+
+*/
+
+/* -------- proto message in plain english (TODO: convert to proto syntax) -------------- 
+
+proto name: (?) 
+
+title - TEXT, possibly w/character limit
+description - TEXT, also char limit OPTIONAL
+
+url - text, with format validation (can be done client-side via regex during the user form entry process)
+date - automatically generated: the date submitted (TODO: WHAT IS THE DATA TYPE OF "DATE" IN PROTO?)
+
+
+
+
+
+LATER/TODO: think about adding some element of user ratings/review

@@ -1,0 +1,53 @@
+// ResourceListing.proto
+
+// Describes information stored in JSON objects that are passed between server (for strorage) and client (for display)
+
+// Data is stored in remotely hosted postgres database, and retreived via SQL query. 
+
+// In the future, a user will be able to submit information in this same shape via a form on the site. 
+
+// Right now, all data is manually created by an admin and stored in resourceListings.json
+
+syntax = 'proto3';
+
+message ResourceListing {
+
+  // TODO: decide how and where to generate these numbers. Postgres can automatically serialize them, but Dee cautions against that. Ask Dee for more info.
+  int64 listing_id = 1;
+
+  string title = 2;
+
+  repeated string resource_type = 3;
+  
+  repeated string categories = 4;
+
+  repeated string languages = 5;
+
+  repeated string keywords = 6;
+
+  // The main url for the resource. Is type-checked via regex at the user input level via regex + native html form input behavior
+  string url = 7;
+
+  // True or false: is an account required to use the resource? 
+  bool signup_required = 8;
+
+  // Plain text description of the resource
+  // Required for successful entry into database
+  string description =  9;
+
+  // If this listing came from a public form submission on the site
+  bool public_submission = 10;
+
+  // If this listing was manually created by an admin
+  bool admin_submission = 11;
+
+  // If submission has been manually approved and is safe to display in the UI
+  bool approved_for_display = 12;
+
+  // This can come from the browser, or the server. It doesn't need to be more exact than the date, so either is fine for our purpse
+  string date_submitted = 13;
+
+  // If updates are made (for example, to the url or description) the date updated should be recorded here. 
+  // Default value is "null" if not set. If this value !== null, it will be displayed instead of the date_submitted
+  string date_updated = 14;
+}

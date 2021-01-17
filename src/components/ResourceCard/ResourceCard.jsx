@@ -12,6 +12,7 @@ const cardBodyStyle = {
   color: '#606060',
 }
 
+/* ----  these will be dynamically entered, probably via mapping over the data and outputting each entry ---- */
 const ResourceCard = props => {
 
   return (
